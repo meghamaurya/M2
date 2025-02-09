@@ -1,0 +1,50 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  top: 80px;
+
+  @media (min-width: 728px) {
+    padding: 0 40px;
+    // padding-bottom: 10px;
+  }
+
+  @media (min-width: 1728px) {
+    // padding: 89px 118px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    @media (min-width: 1440px) {
+      gap: 70px;
+    }
+
+    @media (min-width: 1728px) {
+      gap: 110px;
+    }
+
+    .cp-btn {
+      cursor: pointer;
+    }
+
+    .login-btn {
+      border: 1px solid 1A2F4C;
+      border-radius: 40px;
+      padding: 14px 50px;
+      cursor: pointer;
+
+      @media (min-width: 1440px) {
+        padding: 14px 70px;
+      }
+
+      @media (min-width: 1728px) {
+        padding: 14px 91px;
+      }
+    }
+  }
+}
