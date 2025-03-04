@@ -14,7 +14,7 @@ const detailSectionData = [
     imgHeight: "576px",
     paddingSmall: "20px",
     paddingMedium: "40px",
-    paddingLarge: "254px 40px 0 40px",
+    paddingLarge: "254px 40px 20px 40px",
   },
   {
     imgUrl: "/assets/images/confidence-level.png",
